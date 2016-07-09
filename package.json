@@ -1,5 +1,5 @@
 {
-  "name": "react-bootstrap",
+  "name": "draft-js-bootstrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mottox2/react-bootstrap.git"
+    "url": "git+https://github.com/mottox2/draft-js-bootstrap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mottox2/react-bootstrap/issues"
+    "url": "https://github.com/mottox2/draft-js-bootstrap/issues"
   },
-  "homepage": "https://github.com/mottox2/react-bootstrap#readme"
+  "homepage": "https://github.com/mottox2/draft-js-bootstrap#readme"
 }
