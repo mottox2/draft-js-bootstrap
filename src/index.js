@@ -28,6 +28,18 @@ export default class App extends React.Component {
   render() {
     return <div>
       <h1>Draft.js example</h1>
+      <button onMouseDown={(e) => {
+        this.onChange(
+          RichUtils.toggleInlineStyle(this.state.editorState, 'BOLD')
+        )
+        e.preventDefault()
+      }}>Bold</button>
+      <button onMouseDown={(e) => {
+        this.onChange(
+          RichUtils.toggleInlineStyle(this.state.editorState, 'ITALIC')
+        )
+        e.preventDefault()
+      }}>Italic</button>
       <Editor
         editorState={this.state.editorState}
         onChange={this.onChange.bind(this)}
