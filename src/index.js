@@ -18,6 +18,7 @@ export default class App extends React.Component {
 
   render() {
     return <div>
+      <h1>Draft.js example</h1>
       <Editor
         editorState={this.state.editorState}
         onChange={this.onChange.bind(this)}
